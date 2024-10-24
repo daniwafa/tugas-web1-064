@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap');
+* {
+    padding: 40;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Jost", sans-serif;
+    font-weight: 400;
+}
+ul {
+    margin-left: 20px;
+}
+.back {
+    min-height: 100vh;
+    width: 120wh;
+    background-image: url('./back.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+
+nav {
+    background-color: #367e84;
+    color: white;
+    text-align: center;
+    height: 65px;
+    padding: 0 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+nav .logo {
+    display: flex;
+    gap: 10px;
+}
+nav img {
+    width: 30px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+} 
+
+section {
+    background-color: #484a54;
+    color:aliceblue;
+    padding: 40px;
+    margin: 40px;
+    border: solid 2px aliceblue;
+    border-radius: 10px;
+    flex-grow: 1;
+}
+
+footer {
+    background-color: #367e84;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: auto;
+}
+.perkenalan {
+  margin: 10px ;  
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position:relative; top: -0px;
+  
+
+}
+.perkenalan img {
+    height: 150px;
+    width: 150px;
+    background-repeat: no-repeat;
+    border-radius: 100%;
+    object-fit: cover;
+    padding-top: 0em;
+}
+.perkenalan .Dosen{
+    width: 100%;
+    display: flex;
+    justify-content: end;
+}
+ body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+
+/* Style untuk ul (daftar tidak terurut) dalam navbar */
+nav ul {
+    list-style-type: none; /* Menghilangkan bullet pada list */
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+/* Style untuk setiap elemen li dalam navbar */
+nav ul li {
+    margin-right: 20px; /* Memberi jarak antar item */
+}
+
+/* Style untuk link dalam navbar */
+nav ul li a {
+    text-decoration: none; /* Menghilangkan garis bawah */
+    color: white; /* Warna teks */
+    padding: 14px 20px;
+    font-size: 16px;
+    font-family: Arial, sans-serif;
+}
+
+/* Style saat link dalam navbar di-hover */
+nav ul li a:hover {
+    background-color: #555; /* Warna latar belakang saat di-hover */
+    border-radius: 5px; /* Membuat sudut melengkung */
+    color: #fff; /* Warna teks saat di-hover */
+}
+
+/* Style untuk link aktif */
+nav ul li a.active {
+    background-color: #04AA6D; /* Warna latar belakang untuk link aktif */
+    border-radius: 5px;
+}
+/* Style untuk section galeri */
+
+
+/* Style untuk gambar dalam galeri */
+section img {
+    width: 200px; /* Lebar gambar seragam */
+    height: 150px; /* Tinggi gambar seragam */
+    object-fit: cover; /* Agar gambar tetap proporsional dalam ukuran */
+    border-radius: 10px; /* Membuat gambar sedikit melengkung di sudut */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Menambahkan bayangan di sekitar gambar */
+    transition: transform 0.3s ease; /* Animasi ketika gambar di-hover */
+}
+
+/* Style untuk efek hover pada gambar */
+section img:hover {
+    transform: scale(1.05); /* Membesarkan gambar sedikit saat di-hover */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Bayangan lebih besar saat di-hover */
+}
+section img {
+    border: 5px solid #000; /* Warna bingkai hitam */
+    padding: 5px;           /* Jarak antara gambar dan bingkai */
+    display: inline-block;   /* Menampilkan gambar secara sejajar */
+    margin: 10px;           /* Jarak antar gambar */
+    width: 200px;           /* Lebar gambar */
+    height: 200px;          /* Tinggi gambar */
+    object-fit: cover;       /* Memastikan gambar pas di dalam kotak */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Menambahkan efek bayangan */
+}
+a{
+    color: #f6f1f1 !important;
+    text-decoration: none !important;
+}
